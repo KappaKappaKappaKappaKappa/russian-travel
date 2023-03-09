@@ -1,129 +1,146 @@
 .page {
-    font-family: 'Inter', Arial, sans-serif;
+    font-family     : 'Inter', Arial, sans-serif;
     background-color: #2A2C2F;
-    min-width: 1280px;
-    max-width: 1280px;
-    margin: auto;
-    color: #FFFFFF;
+    width           : 100%;
+    margin          : auto;
+    color           : #FFFFFF;
+    border          : 1px solid red;
 }
 
 .header {
     background-color: #2A2C2F;
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid red;
-    padding: 28px 48px 56px;
-    max-width: 1184px;
-    margin: auto;
+    max-width       : 92.5%;
+    display         : flex;
+    justify-content : space-between;
+    margin          : auto;
+    border          : 1px solid red;
+    margin-bottom   : 56px;
+    margin-top      : 28px;
 }
 
-.header__logo {}
+.header__logo {
+    max-width: 15%;
+}
 
 .header__lang {
-    display: flex;
+    display    : flex;
     align-items: flex-end;
-    gap: 18px;
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 1.75rem;
+    gap        : 18px;
 }
 
 .header__link {
-    color: #FFFFFF;
-    text-decoration: none;
+    min-height: 60%;
 }
 
 .header__link_ru {
-    text-decoration: underline;
+    color               : #FFFFFF;
+    font-weight         : 400;
+    font-size           : 1.5rem;
+    line-height         : 1.75rem;
+    text-decoration-line: underline;
 }
 
-.header__link_en {}
+.header__link_en {
+    color          : #FFFFFF;
+    font-weight    : 400;
+    font-size      : 1.5rem;
+    line-height    : 1.75rem;
+    text-decoration: none;
+}
+
+.content {}
 
 .lead {
-    border: 1px solid red;
-    max-width: 984px;
-    margin: auto;
+    border       : 1px solid red;
+    max-width    : 77%;
+    margin       : auto;
+    margin-bottom: 92px;
 }
 
 .lead__title {
-    text-align: center;
-    font-weight: 900;
-    font-size: 6rem;
-    line-height: 6.26rem;
-    max-width: 720px;
-    margin: auto;
+    text-align    : center;
+    font-weight   : 900;
+    font-size     : 6rem;
+    line-height   : 6.26rem;
+    max-width     : 73%;
+    margin        : auto;
     padding-bottom: 2rem;
 }
 
 .lead__subtitle {
-    max-width: 640px;
-    text-align: center;
-    font-weight: 400;
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-    margin: auto;
+    max-width     : 65%;
+    text-align    : center;
+    font-weight   : 400;
+    font-size     : 1.875rem;
+    line-height   : 2.25rem;
+    margin        : auto;
     padding-bottom: 4rem;
 }
 
 .lead__image {
-    max-width: 984px;
-    padding-bottom: 0.5rem;
+    max-width: 100%;
 }
 
 .lead__caption {
-    display: inline-block;
-    font-weight: 400;
-    font-size: 0.625rem;
-    line-height: 0.875rem;
+    display       : inline-block;
+    font-weight   : 400;
+    font-size     : 0.625rem;
+    line-height   : 0.875rem;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    margin-bottom: 92px;
+    margin        : 0;
 }
 
 .intro {
-    border: 1px solid red;
-    max-width: 690px;
-    margin-left: 11.5%;
+    border       : 1px solid red;
+    max-width    : 54%;
+    margin-left  : 11.5%;
     margin-bottom: 92px;
 }
 
 .intro__title {
-    font-weight: 900;
-    font-size: 3.375rem;
-    line-height: 3.625rem;
-    text-align: center;
+    font-weight  : 900;
+    font-size    : 3.375rem;
+    line-height  : 3.625rem;
     margin-bottom: 40px;
 }
 
 .intro__text {
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 163%;
+    font-weight  : 400;
+    font-size    : 1rem;
+    line-height  : 1.625rem;
     margin-bottom: 33px;
 }
 
-.intro__list {
-    font-weight: 700;
-    font-size: 0.75rem;
-    line-height: 1.125rem;
+.intro__list {}
+
+.intro__list_text {
+    font-weight    : 700;
+    font-size      : 0.75rem;
+    line-height    : 1.125rem;
+    list-style-type: none;
 }
 
-.intro__nums{
+.intro__list_nums {
     font-weight: 100;
 }
 
-.photo-grid{
-    border: 1px solid red;
-    max-width: 92.5%;
-    margin: auto;
-    display: grid;
-    grid-template-rows: repeat(3, 213px);
-    grid-template-columns: repeat(4, 284px);
-    gap: 16px;
-    margin-bottom: 92px;
+.photo-grid {
+    border               : 1px solid red;
+    max-width            : 92.5%;
+    margin               : auto;
+    display              : grid;
+    grid-template-rows   : repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap                  : 16px;
+    margin-bottom        : 92px;
 }
 
 
-.photo-grid__image{
-    max-width: 284px;
+.photo-grid__image {
+    max-width      : 100%;
+}
+
+.places {
+    
 }
