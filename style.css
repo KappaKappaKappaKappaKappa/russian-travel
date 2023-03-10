@@ -143,26 +143,23 @@
 
 .places {
     max-width: 77%;
-    border: 1px red solid;
     margin: auto;
 }
 
 .place {
-    border: 1px solid red;
     display: grid;
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 24% repeat(2, 1fr);
+    grid-template-columns: 36vw 37.8vw;
+    grid-template-rows: minmax(min-content, max-content) 36vw;
     grid-template-areas:
         "title website"
-        "image text"
         "image text";
-        row-gap: 48px;
         column-gap: 40px;
+        row-gap: 48px;
+        margin-bottom: 80px;
 }
 
 .place__title {
     grid-area: title;
-    max-width: 97.5%;
     font-weight: 900;
     font-size: 4.5rem;
     line-height: 4.75rem;
@@ -179,7 +176,9 @@
 
 .place__link {
     color: #FFFFFF;
-
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
 }
 
 .place__website{
@@ -191,7 +190,8 @@
 }
 
 .place__image {
-    max-width: 97.5%;
+    max-width: 36vw;
+    object-fit: cover;
     grid-area: image;
 }
 
@@ -202,15 +202,13 @@
     gap: 26px;
 }
 
-.place__paragraph-top {
-    grid-area: pargraph-top;
+.place__paragraph_top {
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 1.8rem;
 }
 
-.place__paragraph-bot {
-    grid-area: pargraph-bot;
+.place__paragraph_bot {
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 1.8rem;
