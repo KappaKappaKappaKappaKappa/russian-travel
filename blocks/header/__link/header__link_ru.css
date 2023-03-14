@@ -1,0 +1,16 @@
+.header__link_ru {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    text-underline-offset: -1px;
+}
+
+@media all and (max-width: 320px) {
+    .header__link_ru {
+        font-size: 1.125rem;
+        line-height: 1.25rem;
+    }
+}
