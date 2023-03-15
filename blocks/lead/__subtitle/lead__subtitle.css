@@ -23,7 +23,7 @@
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (min-width: 320px) and (max-width: 770px){
     .lead__subtitle {
         font-size: 1rem;
         line-height: 1.25rem;
