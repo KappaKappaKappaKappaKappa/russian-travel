@@ -1,4 +1,4 @@
-.place__text {
+.place__paragraphs {
     grid-area: text;
     display: flex;
     flex-direction: column;
@@ -6,19 +6,19 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .place__text {
+    .place__paragraphs {
         gap: 26px;
     }
 }
 
 @media all and (max-width: 768px) {
-    .place__text {
+    .place__paragraphs {
         gap: 25px;
     }
 }
 
 @media all and (max-width: 320px) {
-    .place__text {
+    .place__paragraphs {
         max-width: 90%;
         margin: auto;
     }
