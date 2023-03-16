@@ -1,0 +1,5 @@
+.header__link_active{
+    text-decoration-line: underline;
+    text-underline-position: under;
+    text-underline-offset: -1px;
+}
