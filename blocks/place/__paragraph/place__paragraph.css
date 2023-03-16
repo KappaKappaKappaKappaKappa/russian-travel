@@ -1,4 +1,4 @@
-.paragraphs__paragraph {
+.place__paragraph {
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 1.83rem;
@@ -6,14 +6,14 @@
 }
 
 @media all and (max-width: 768px) {
-    .paragraphs__paragraph {
+    .place__paragraph {
         font-size: 1rem;
         line-height: 1.625rem;
     }
 }
 
 @media all and (max-width: 320px) {
-    .paragraphs__paragraph {
+    .place__paragraph {
         font-size: 1rem;
         line-height: 1.625rem;
     }
