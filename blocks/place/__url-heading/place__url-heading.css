@@ -5,6 +5,7 @@
     letter-spacing: 0.125rem;
     margin: 0;
     line-height: 0.75rem;
+    text-transform: uppercase;
 }
 
 @media all and (max-width: 768px) {
