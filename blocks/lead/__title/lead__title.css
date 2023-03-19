@@ -3,21 +3,14 @@
     font-weight: 900;
     font-size: 6rem;
     line-height: 6.26rem;
-    max-width: 73%;
+    max-width: 720px;
     margin: auto;
     margin-bottom: 32px;
 }
 
-@media all and (min-width: 768px) and (max-width: 815px){
+@media all and (min-width: 320px) and (max-width: 700px){
     .lead__title {
-        max-width: 93.75%;
-    }
-}
-
-@media all and (min-width: 320px) and (max-width: 767px){
-    .lead__title {
-        max-width: 90%;
-        font-weight: 900;
+        max-width: 288px;
         font-size: 2.5rem;
         line-height: 2.75rem;
         margin-bottom: 16px;
