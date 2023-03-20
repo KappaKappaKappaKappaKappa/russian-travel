@@ -7,10 +7,3 @@
     line-height: 0.75rem;
     text-transform: uppercase;
 }
-
-@media all and (max-width: 768px) {
-    .palce__url-heading {
-        font-size: 0.75rem;
-        line-height: 0.75rem;
-    }
-}
